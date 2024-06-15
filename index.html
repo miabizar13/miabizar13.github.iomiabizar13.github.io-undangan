@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="bg.jpeg">
+    <audio id="background-music" src="msk.mp3" autoplay loop style="display: none;"></audio>
+    <div class="invitation-card">
+        <div class="header">
+            <h2> <font color="#2980b9"> Hi Friends!, </font> </h2>
+            <p>Kami mengundang kalian untuk merayakan ulang tahun aku,</p>
+            <h1> <font color="#2980b9"> ZYANDRU TURNING 3! </font> </h1>
+        </div>
+        <div class="details">
+            <p><strong>Tanggal:</strong> 03 Juni 2025</p>
+            <p><strong>Waktu:</strong> 10.00 WIB</p>
+            <p><strong>Tempat:</strong> Villa Balaraja, Kabupaten Tangerang.</p>
+            <p>Ayo datang dan jalan-jalan naik kereta bersamaku!</p>
+        </div>
+        <div class="footer">
+            <img src="child-photo.jpg" alt="Foto Anak" class="child-photo">
+            <img src="train.png" alt="Train" class="train">
+        </div>
+        <div class="confirmation" id="confirmation">
+            <form id="confirmationForm">
+                <p>Mohon konfirmasi kehadiran kalian sebelum<br>
+                   01 Juni 2025 melalui Form yang tertera di bawah ini yaa..</p>
+                <input type="text" id="name" name="name" placeholder="Nama" required>
+                <input type="tel" id="phone" name="phone" placeholder="Nomor Telepon" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

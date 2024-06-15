@@ -1,0 +1,103 @@
+body {
+    font-family: 'Comic Sans Ms', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.invitation-card {
+    background: #fff url('tbg.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Add padding to create space between the content and the frame */
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.header h2, .header p, .header h1 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.header h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.header p {
+    color: #666;
+    font-size: 1em;
+}
+
+.header h1 {
+    color: #e67300;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.details p {
+    color: #555;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.confirmation p {
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.confirmation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmation input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.confirmation button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #e67300;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmation button:hover {
+    background-color: #cc5c00;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+}
+
+.child-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.train {
+    width: 150px;
+    height: 150px;
+}
